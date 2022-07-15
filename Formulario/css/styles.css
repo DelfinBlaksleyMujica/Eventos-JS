@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+}
+
+.contact__main__NuestroContacto{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.contact__main__NuestroContacto ul{
+    list-style-type: none;
+}
+
+.contact__main__NuestroContacto ul li{
+    color: white;
+    font-family: "Bungee";
+    font-size:12px;
+}
+
+
+.seccionContactos_formulario{
+    display:flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+
+.seccionContactos_formulario div input{
+    font-family: "Bungee";
+    color: black;
+    font-size: 8px;
+    width: 150px;
+}
+
+textarea{
+    font-family: "Bungee";
+    color: black;
+    font-size: 8px;
+    height:100px;
+}
+
+.confirmacionMensaje__container{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.confirmacionMensaje__container h3{
+    color:black;
+    font-family: "Bungee";
+    text-align: center;
+    font-size: 15px;
+    width:60%;
+    margin-left: 70px;
+}
+
+
+.confirmacionMensaje__contenido p{
+    color:black;
+    font-family: "Bungee";
+    text-align: center;
+    font-size:8px;
+    width:60%;
+    margin-left: 70px;
+}
+
+#contenedor{
+    display:flex;
+    justify-content: space-around;
+}
+
+#botonEnviarContactos{
+    font-family: "Bungee";
+    color: white;
+    border: solid 2px white;
+    background-color:black;
+    height:40px;
+    font-size: 12px;
+}
+
+
+#botonEnviarContactos:hover{
+    background-color:white;
+    border: solid 2px black;
+    color:black;
+}
